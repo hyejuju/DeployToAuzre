@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const diceModel = mongoose.model('dicemodelname');
+const britishModel = mongoose.model('britishmodelname');
 
 const winnerlist = function (req,res) {
         res
