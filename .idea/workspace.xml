@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4eb931d-2877-4c58-8412-5b513471842f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app_api/controllers/ctrlApibritish.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_api/controllers/ctrlApibritish.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_api/controllers/ctrlApidice.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_api/controllers/ctrlApidice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_server/controllers/apiURLs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_server/controllers/ctrlBritish.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_server/controllers/ctrlBritish.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_server/controllers/ctrlDICE.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_server/controllers/ctrlDICE.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,23 +33,23 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitattributes" value="2" />
-          <entry key="js" value="27" />
-          <entry key="json" value="3" />
+          <entry key="js" value="28" />
+          <entry key="json" value="4" />
           <entry key="pug" value="9" />
           <entry key="www" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="3" />
+          <entry key="JSON" value="4" />
           <entry key="Jade" value="9" />
-          <entry key="JavaScript" value="29" />
+          <entry key="JavaScript" value="30" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="2036" />
+          <entry key="js" value="2984" />
           <entry key="pug" value="11" />
           <entry key="www" value="1" />
         </counts>
@@ -53,7 +57,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Jade" value="11" />
-          <entry key="JavaScript" value="2037" />
+          <entry key="JavaScript" value="2985" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -63,19 +67,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app_server/controllers/ctrlMain.js">
+        <entry file="file://$PROJECT_DIR$/app_server/controllers/ctrlBritish.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+            <state relative-caret-position="57">
+              <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app_server/controllers/ctrlBritish.js">
+        <entry file="file://$PROJECT_DIR$/app_server/controllers/apiURLs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="84" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="84" />
+            <state relative-caret-position="152">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -84,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -98,11 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app_server/controllers/ctrlDICE.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="94" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="94" />
+            <state relative-caret-position="38">
+              <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -111,16 +115,21 @@
         <entry file="file://$PROJECT_DIR$/app_api/routes/indexApi.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app_api/controllers/ctrlApibritish.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -135,18 +144,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app_server/routes/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app_api/models/gotyscript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
+            <state relative-caret-position="199">
               <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
@@ -171,10 +171,8 @@
         <option value="$PROJECT_DIR$/app_server/routes/index.js" />
         <option value="$PROJECT_DIR$/bin/www" />
         <option value="$PROJECT_DIR$/app_server/views/layout.pug" />
-        <option value="$PROJECT_DIR$/app_server/controllers/ctrlBritish.js" />
         <option value="$PROJECT_DIR$/app_server/controllers/documentscript.js" />
         <option value="$PROJECT_DIR$/app_server/controllers/gotyscript.js" />
-        <option value="$PROJECT_DIR$/app_server/controllers/ctrlDICE.js" />
         <option value="$PROJECT_DIR$/app_server/models/appSchemas.js" />
         <option value="$PROJECT_DIR$/app_server/models/db.js" />
         <option value="$PROJECT_DIR$/app_server/routes/indexApi.js" />
@@ -183,6 +181,9 @@
         <option value="$PROJECT_DIR$/app_api/routes/indexApi.js" />
         <option value="$PROJECT_DIR$/app_api/controllers/ctrlApidice.js" />
         <option value="$PROJECT_DIR$/app_api/controllers/ctrlApibritish.js" />
+        <option value="$PROJECT_DIR$/app_server/controllers/apiURLs.js" />
+        <option value="$PROJECT_DIR$/app_server/controllers/ctrlBritish.js" />
+        <option value="$PROJECT_DIR$/app_server/controllers/ctrlDICE.js" />
       </list>
     </option>
   </component>
@@ -201,10 +202,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="162" />
-    <option name="y" value="26" />
-    <option name="width" value="948" />
-    <option name="height" value="725" />
+    <option name="x" value="22" />
+    <option name="y" value="33" />
+    <option name="width" value="1638" />
+    <option name="height" value="978" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -242,6 +243,27 @@
               <item name="DeployToAuzre" type="462c0819:PsiDirectoryNode" />
               <item name="app_api" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeployToAuzre" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeployToAuzre" type="462c0819:PsiDirectoryNode" />
+              <item name="app_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeployToAuzre" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeployToAuzre" type="462c0819:PsiDirectoryNode" />
+              <item name="app_server" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeployToAuzre" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeployToAuzre" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeployToAuzre" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeployToAuzre" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -305,23 +327,23 @@
       <workItem from="1538394489271" duration="1321000" />
       <workItem from="1538395855023" duration="7656000" />
       <workItem from="1541068384367" duration="552000" />
-      <workItem from="1541069217962" duration="5729000" />
+      <workItem from="1541069217962" duration="9454000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15258000" />
+    <option name="totallyTimeSpent" value="18983000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-106" y="1" width="758" height="580" extended-state="0" />
+    <frame x="18" y="27" width="1310" height="782" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30929264" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17517675" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29596412" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2037037" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -376,9 +398,6 @@
     <entry file="file://$PROJECT_DIR$/app_server/views/dice.pug">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app_api/models/db.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -396,13 +415,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_server/controllers/ctrlBritish.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="84" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app_server/controllers/ctrlMain.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -410,31 +422,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_server/controllers/ctrlDICE.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="94" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_api/models/gotyscript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app_api/routes/indexApi.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -455,7 +453,38 @@
     <entry file="file://$PROJECT_DIR$/app_api/controllers/ctrlApibritish.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_api/models/gotyscript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_server/controllers/apiURLs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_server/controllers/ctrlBritish.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_server/controllers/ctrlDICE.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
         </state>
       </provider>
     </entry>
