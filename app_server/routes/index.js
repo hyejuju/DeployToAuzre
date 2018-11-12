@@ -11,4 +11,9 @@ router.get('/', ctrlMain.index);  // Home page
 router.get('/dice', ctrlDICE.winnerlist);  // List of DICE awards winners
 router.get('/british', ctrlBritish.winnerlist);  // List of British awards winners
 
+router
+    .route('/dice/add')
+    .get(ctrlDICE.showForm)
+    .post(ctrlDICE.addData);
+
 module.exports = router;

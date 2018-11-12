@@ -1,6 +1,38 @@
 const request = require('request');
 const apiURL = require('./apiURLs');
 
+const showForm = function(req,res) {
+    res.render('dice_add');
+};
+
+const addData = function(req,res) {
+    const path = '/api/dice';
+
+    const postdata = {
+        year: req.body.year,
+        game: req.body.game,
+        team: req.body.team
+    };
+    const requestOptions = {
+        url : apiURL.server + path,
+        method: 'POST',
+        json : postdata
+    };
+
+    request(
+        requestOptions,
+        function (err,response) {
+            if (response.statusCode === 201) {
+                res.redirect('/dice');
+            }
+            else {
+                res.render('error', {message: 'Error adding data: '+
+                response.statusMessage +
+                ' ('+ response.statusCode + ')' });
+            }
+        }
+    );
+};
 const winnerlist = function(req, res){
     const path = '/api/dice';
     const requestOptions = {
@@ -33,5 +65,7 @@ const winnerlist = function(req, res){
 
 };
 module.exports = {
-    winnerlist
+    winnerlist,
+    showForm,
+    addData
 };
