@@ -26,7 +26,21 @@ const addWinner = function (req,res) {
     );
 };
 
+//delete function
+const deleteWinner = function (req,res) {
+    diceModel.remove(req.body, function(err,deletedWinner){//??
+        if (err){
+            res.status(400).json(err);
+        }
+        else {
+            res.status(200).json(deletedWinner);//????
+        }
+        }
+    );
+};
+
 module.exports = {
     winnerlist,
-    addWinner
+    addWinner,
+    deleteWinner
 };

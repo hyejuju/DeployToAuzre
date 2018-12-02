@@ -3,6 +3,7 @@ const apiURL = require('./apiURLs');
 
 const showForm = function(req,res) {
     res.render('dice_add');
+    res.render('dice_delete');//??from pug file
 };
 
 const addData = function(req,res) {
@@ -33,6 +34,37 @@ const addData = function(req,res) {
         }
     );
 };
+
+//deleting
+const deleteData = function(req,res) {
+    const path = '/api/dice';
+
+    const removedata = {
+        year: req.body.year,
+        game: req.body.game,
+        team: req.body.team
+    };
+    const requestOptions = {
+        url : apiURL.server + path,
+        method: 'DELETE',
+        json : removedata
+    };
+
+    request(
+        requestOptions,
+        function (err,response) {
+            if (response.statusCode === 201) {
+                res.redirect('/dice');
+            }
+            else {
+                res.render('error', {message: 'Error deleting data: '+
+                        response.statusMessage +
+                        ' ('+ response.statusCode + ')' });
+            }
+        }
+    );
+};
+
 const winnerlist = function(req, res){
     const path = '/api/dice';
     const requestOptions = {
@@ -64,8 +96,14 @@ const winnerlist = function(req, res){
     );
 
 };
+
+
+
+
 module.exports = {
     winnerlist,
     showForm,
-    addData
+    addData,
+    deleteData
+
 };
